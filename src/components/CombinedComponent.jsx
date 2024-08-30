@@ -22,14 +22,17 @@ const CombinedComponent = () => {
           <img className="mx-2 w-20 h-20" src={logo} alt="logo" />
         </div>
         <div className="flex items-center justify-center gap-4 text-2xl text-white">
-          <a
-            href="https://www.linkedin.com/in/naveen-s-261402280/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-500 transition-colors duration-300"
-          >
-            <FaLinkedin />
-          </a>
+        <a
+  href="https://www.linkedin.com/in/naveen-s-261402280/"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ color: 'white' }}
+  className="hover:text-blue-500 transition-colors duration-300 cursor-pointer"
+>
+  <FaLinkedin />
+</a>
+
+
           <a
             href="https://github.com/naveennaviii5"
             target="_blank"
@@ -94,7 +97,7 @@ const CombinedComponent = () => {
               </motion.p>
               {/* Resume Button */}
               <a
-                href="https://drive.google.com/file/d/1l_0HY09osOgDr0TTYWLu04szcNRNZNDS/view?usp=sharing"
+                href="https://drive.google.com/file/d/1UmrmkaAjBGbLVSdX36jrDT-djw3MqPQq/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
