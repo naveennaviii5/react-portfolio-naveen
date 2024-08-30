@@ -79,7 +79,7 @@ const CombinedComponent = () => {
                 initial="hidden" 
                 animate="visible" 
                 className="pb-0 text-4xl font-thin tracking-tight lg:mt-16 lg:text-7xl text-center lg:text-left">
-                I'm Naveen Navii
+                I'm Naveen S
               </motion.h1>
               <motion.span 
                 variants={container(0.5)} 
